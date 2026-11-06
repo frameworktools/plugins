@@ -1,5 +1,4 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "framework-cloud",
   "version": "1.0.0",
   "description": "Connect to Framework Cloud: read your projects, published artifacts, and reports, and write reports from your results.",
@@ -8,12 +7,9 @@
   "repository": "https://github.com/frameworktools/plugins",
   "license": "MIT",
   "keywords": ["data science", "reproducible research", "R", "Python", "Stata", "MCP"],
-  "extensions": {
-    "com.openai": {
-      "interface": {
-        "displayName": "Framework Cloud",
-        "logo": "./assets/logo.png"
-      }
-    }
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Framework Cloud",
+    "logo": "./assets/logo.png"
   }
 }

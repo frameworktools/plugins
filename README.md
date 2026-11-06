@@ -33,8 +33,8 @@ level.
 
 `plugins/framework-cloud` connects to the Framework Cloud MCP server at
 `https://framework.pub/mcp`. It holds a Claude manifest
-(`.claude-plugin/plugin.json` and `.mcp.json`) and a portable manifest for
-ChatGPT and Codex (`plugin.json` and `mcp.json`). The marketplace files are
+(`.claude-plugin/plugin.json`) and a Codex manifest (`.codex-plugin/plugin.json`).
+Both read the server from `.mcp.json`. The marketplace files are
 `.claude-plugin/marketplace.json` and `.agents/plugins/marketplace.json`.
 
 On a self-hosted Framework Cloud server, add the server's own `/mcp` address
