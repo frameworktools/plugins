@@ -1,0 +1,12 @@
+{
+  "name": "framework",
+  "interface": { "displayName": "Framework" },
+  "plugins": [
+    {
+      "name": "framework-cloud",
+      "source": { "source": "local", "path": "./plugins/framework-cloud" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

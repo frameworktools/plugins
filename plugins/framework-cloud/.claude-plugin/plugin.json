@@ -1,0 +1,15 @@
+{
+  "name": "framework-cloud",
+  "displayName": "Framework Cloud",
+  "version": "1.0.0",
+  "description": "Connect to Framework Cloud: read your projects, published artifacts, and reports, and write reports from your results.",
+  "author": { "name": "Framework", "url": "https://framework.pub" },
+  "homepage": "https://framework.pub/docs/ai-apps",
+  "repository": "https://github.com/frameworktools/plugins",
+  "license": "MIT",
+  "keywords": ["data science", "reproducible research", "R", "Python", "Stata", "MCP"],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://framework.pub/docs/ai-apps",
+  "privacyPolicyUrl": "https://framework.pub/privacy",
+  "termsOfServiceUrl": "https://framework.pub/terms"
+}

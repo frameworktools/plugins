@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "framework": {
+      "type": "http",
+      "url": "https://framework.pub/mcp"
+    }
+  }
+}

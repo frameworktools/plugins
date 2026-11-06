@@ -1,0 +1,13 @@
+{
+  "name": "framework",
+  "description": "Plugins from Framework, for structured data science workflows.",
+  "owner": { "name": "Framework", "url": "https://framework.pub" },
+  "plugins": [
+    {
+      "name": "framework-cloud",
+      "source": "./plugins/framework-cloud",
+      "description": "Connect to Framework Cloud: read your projects, published artifacts, and reports, and write reports from your results.",
+      "category": "data-science"
+    }
+  ]
+}
