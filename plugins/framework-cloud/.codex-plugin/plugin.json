@@ -1,15 +1,31 @@
 {
   "name": "framework-cloud",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Connect to Framework Cloud: read your projects, published artifacts, and reports, and write reports from your results.",
-  "author": { "name": "Framework", "url": "https://framework.pub" },
+  "author": {
+    "name": "Framework",
+    "url": "https://framework.pub"
+  },
   "homepage": "https://framework.pub/docs/ai-apps",
   "repository": "https://github.com/frameworktools/plugins",
   "license": "MIT",
-  "keywords": ["data science", "reproducible research", "R", "Python", "Stata", "MCP"],
+  "keywords": [
+    "data science",
+    "reproducible research",
+    "R",
+    "Python",
+    "Stata",
+    "MCP"
+  ],
   "mcpServers": "./.mcp.json",
+  "skills": "./skills",
   "interface": {
     "displayName": "Framework Cloud",
-    "logo": "./assets/logo.png"
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Publish this notebook to Framework Cloud",
+      "Write a report from my published results",
+      "Propose a blueprint for Quarto and R"
+    ]
   }
 }
